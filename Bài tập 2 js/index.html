@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            justify-content: center;
+            display: flex;
+            height: 500px;
+        }
+
+        .row {
+            margin: auto
+        }
+
+        .ip {
+            padding: 7px;
+        }
+
+        .btn {
+            margin-left: 20px;
+            padding: 7px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <input class="ip" id="input" onchange="renderIP()" placeholder="Nhập số">
+            <button class="btn">OK</button>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
