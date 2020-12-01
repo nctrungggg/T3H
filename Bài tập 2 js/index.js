@@ -24,7 +24,10 @@ renderIP = () => {
         window.open('https://download.cnet.com')
     } else if (numberIp == 3) {
         window.open('https://vndoc.com')
-    } else {
+    } else if(numberIp == '') {
+        alert('Vui lòng nhập số')
+    }
+    else {
         window.open('https://meta.vn')
     }
 }
